@@ -1,140 +1,140 @@
 /*--------------------------------------few general settings--------------------------------------------------*/
 
 body{
-	background-color: #0C1027;
-	/*position: relative;*/
+    background-color: #0C1027;
+    /*position: relative;*/
 }
 
 a{
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 button:focus, input:focus {
-	outline: none;
+    outline: none;
 }
 
 main{
-	display: inline-block;
-	width: 63vw;
-	height: auto;
+    display: inline-block;
+    width: 63vw;
+    height: auto;
 }
 
 .aside{
-	display: inline-block;
-	width: 30vw;
-	height: auto;
-	/*background-color: yellow;*/
-	vertical-align: top;
-	margin-left: 1%;
-	margin-top: 2.5%;
-	color: white;
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+    /*background-color: yellow;*/
+    vertical-align: top;
+    margin-left: 1%;
+    margin-top: 2.5%;
+    color: white;
 }
 
 /*------------------------------------------------------navbar---------------------------------------------------------*/
 
 .nav{
-	width: inherit; 
-	height: 4vh;
-	padding: 1% 1.8%;
-	margin:0;
-	margin-top: 20px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	color: white;
+    width: inherit; 
+    height: 4vh;
+    padding: 1% 1.8%;
+    margin:0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
 }
 
 #nav-left{
-	display: flex;
+    display: flex;
 }
 
 #home {
-	margin-right: -5%;
+    margin-right: -5%;
 }
 
 .nav span {  
-	margin-left: 8.5%;
-	font-size: 1rem;
-	font-family: sans-serif;
-	letter-spacing: 0.05rem;
+    margin-left: 8.5%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.05rem;
 }
 
 .studio-name {
-	margin-left: 10px;
-	margin-top: 5px;
-	color: white;
-	font-family: sans-serif;
-	letter-spacing: 0.02rem;
-	font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.02rem;
+    font-size: 1rem;
 }
 
 .nav i {
-	font-size: 2.8rem;
-	color: white;
+    font-size: 2.8rem;
+    color: white;
 }
 
 #nav-right{
-	display: flex;
-	margin-left:38%;
-	justify-content: space-between;
+    display: flex;
+    margin-left:38%;
+    justify-content: space-between;
 }
 
 
 #nav-right form {
-	display: inline-block;
+    display: inline-block;
 }
 
 #nav-right i {
-	font-size: 1.3rem;
-	/*margin-top: 5px;*/
-	padding: 0 ;
+    font-size: 1.3rem;
+    /*margin-top: 5px;*/
+    padding: 0 ;
 }
 
 #nav-right button {
-	background-color: #12193E;
-	padding: 0 ;
-	padding-left: 3px;
-	height: 1.9rem;
-	width: 2rem;
-	border: none;
-	/*border-bottom-left-radius: 0.5rem;*/
+    background-color: #12193E;
+    padding: 0 ;
+    padding-left: 3px;
+    height: 1.9rem;
+    width: 2rem;
+    border: none;
+    /*border-bottom-left-radius: 0.5rem;*/
 }
 
 .s-icon{
-	border-bottom-left-radius: 0.5rem;
-	border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
 }
 
 .mic{
-	border-bottom-right-radius: 0.5rem;
-	border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .search-bar{
-	/*border-radius: 0.5rem;*/
-	background-color: #12193E;
-	border: 0px solid transparent;
-	color: white;
-	padding: 6px;
-	padding-left: 8px;
-	font-size: 1rem;
-	width: 17rem;
+    /*border-radius: 0.5rem;*/
+    background-color: #12193E;
+    border: 0px solid transparent;
+    color: white;
+    padding: 6px;
+    padding-left: 8px;
+    font-size: 1rem;
+    width: 17rem;
 }
 
 #nav-right .bell-icon {
-	margin-left: 40px;
-	font-size: 1.3rem;
-	margin-top: 5px;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    margin-top: 5px;
 }
 
 .profile img {
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-	margin-left: 2.18rem;
-	margin-right: 1.25rem;
-	margin-top: -0.625rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 2.18rem;
+    margin-right: 1.25rem;
+    margin-top: -0.625rem;
 }
 
 /*nav bar ends*/
@@ -145,634 +145,636 @@ main{
 /*1.---------------------------------------- artist */
 
 .artist {
-	width: 58vw;
-	height: 330px;
-	background-color: #131C44;
-	margin-left: 5%;
-	margin-top: 4%;
+    width: 58vw;
+    height: 330px;
+    background-color: #131C44;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
 }
 
 .artist div {
-	display: inline-block;
-	vertical-align: top;
-	color: white;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
 }
 
 .image {
-	width: 33%;
-	height: 100%;
-	background-size: cover;
-	background-image: url(images/artist.jpg);
+    width: 300px;
+    height: 100%;
+    background-size: cover;
+    background-image: url(images/artist.jpg);
 }
 
 .details {
-	height: 100%;
-	width: 66%;
+    height: 100%;
+    width: 55%;
 }
 
 .header {
-	margin-left: 4%;
-	margin-top: 2.5%;
-	width: 100%;
-	display: block;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    width: 96%;
+    display: block;
 }
 
 .intro{
-	float: left;
-	/*margin-top: 2.5%;*/
-	font-family: sans-serif;
+    float: left;
+    /*margin-top: 2.5%;*/
+    font-family: sans-serif;
 }
 
 .intro h2 {
-	margin-bottom: 2%;
-	font-family: sans-serif;
-	font-size: 1.5rem;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
 }
 
 .intro span {
-	font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 #follow {
-	float: right;
-	margin-top: 5%;
-	font-family: sans-serif;
-	font-size: 1rem;
-	margin-right: 12%;
-	/*vertical-align: top;*/
+    float: right;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-right: 12%;
+    /*vertical-align: top;*/
 }
 
 p{
-	display: block;
-	margin-left: 4%;
-	margin-right: 3%;
-	font-family: 'Varta', sans-serif;
-	line-height: 1.3;
-	letter-spacing: 0.01rem;
-	font-size: 1rem;
+    display: block;
+    margin-left: 4%;
+    margin-right: 3%;
+    font-family: 'Varta', sans-serif;
+    line-height: 1.3;
+    letter-spacing: 0.01rem;
+    font-size: 1rem;
 }
 
 .footer2 {
-	margin-left: 4%;
-	margin-top: 2.5%;
-	width: 90%;
-	display: block;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    width: 90%;
+    display: block;
 }
 
 .footer2 button {
-	width: 30%;
-	border: none;
-	color: white;
-	padding: 7px;
-	font-size: 1rem;
-	font-weight: 500;
-	background-image: linear-gradient(to right, #3530A8,#C75CE1);
-	cursor: pointer;
+    width: 30%;
+    border: none;
+    color: white;
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #3530A8,#C75CE1);
+    cursor: pointer;
 }
 
 .footer2 span {
-	font-size: 1.3rem;
-	margin-left: 20%;
-	font-family: 'Varta', sans-serif;
-	margin-top: 2%;
+    font-size: 1.3rem;
+    margin-left: 20%;
+    font-family: 'Varta', sans-serif;
+    margin-top: 2%;
 }
 
 .footer2 p{
-	margin-left: 0;
+    margin-left: 0;
 }
 
 /*--------------------------------------popular songs list*/
 
 .popular-songs {
-	display: block;
-	height: 12.5vh;
-	width: 58vw;
-	background-color: #1B1F36;
-	margin-left: 1%;
-	border-radius: 1rem;
-	margin-top: 3%;
-	transition-delay: 0.05s;
+    display: block;
+    height: 12.5vh;
+    width: 58vw;
+    background-color: #1B1F36;
+    margin-left: 1%;
+    border-radius: 1rem;
+    margin-top: 3%;
+    transition-delay: 0.05s;
 }
 
 
 .popular-songs:hover{
-	background-color: #121212;
+    background-color: #121212;
 }
 
 .popular-songs div {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .ol1{
-	color: white;
-	margin-bottom: 12%;
+    color: white;
+    margin-bottom: 12%;
 }
 
 .popular-songs img {
-	height: 4.5rem;
-	width: 4.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
 }
 
 .song-img {
-	margin-top: 10px;
-	margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
  
 .song-detail {
-	margin-left: 3%;
-	font-family: sans-serif;
+    margin-left: 3%;
+    font-family: sans-serif;
 }
 
 .song-detail h4 {
-	margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .song-detail h3 {
-	margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .extra-options {
-	float: right;
-	width: 30%;
-	margin-right: -10%;
-	margin-top: 3%;
+    float: right;
+    width: 30%;
+    margin-right: -10%;
+    margin-top: 3%;
 }
 
 .extra-options span {
-	margin-right: 15%;
-	font-size: 2rem;
+    margin-right: 15%;
+    font-size: 2rem;
 }
 
 /*----------------------------------------Aside----------------------------------*/
 
 .similar-artists {
-	width: 100%;
-	height: auto;
-	margin-left: -2%;
+    width: 100%;
+    height: auto;
+    margin-left: -2%;
 }
 
 
 .similar-artists ol {
-	margin-top: 0;
-	height: 50vh;
-	overflow-x: hidden;
-	overflow-y: scroll;
+    margin-top: 0;
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .similar-artists ol::-webkit-scrollbar{
-	display: none;
+    display: none;
 }
 
 
 .heading {
-	font-size: 1.2rem;
-	font-family: 'Noto Sans JP', sans-serif;
-	margin-top: -5%;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: -5%;
 }
 
 .heading h2{
-	display: inline-block;
+    display: inline-block;
 }
 
 .heading a{
-	float: right;
-	margin-top: 8.5%;
-	font-family: 'Varta', sans-serif;
+    float: right;
+    margin-top: 8.5%;
+    font-family: 'Varta', sans-serif;
 } 
 
 .list-item {
-	display: block;
-	height: auto;
-	margin-bottom: 3%;
+    display: block;
+    height: auto;
+    margin-bottom: 3%;
 }
 
 .artist-img{
-	margin-left: -6%;
+    margin-left: -6%;
 }
 
 .artist-img img {
-	height: 6rem;
-	width: 7rem;
+    height: 6rem;
+    width: 7rem;
 
 }
 
 .list-item {
-	min-width: 250px;
+    min-width: 250px;
 }
 
 .list-item div {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .btn{
-	float: right;
-	font-size: 1rem;
+    float: right;
+    font-size: 1rem;
 }
 
 .more-det{
-	float: right;
+    float: right;
 }
 
 /*----------------recently played----------------*/
 
 .recently-played {
-	width: 100%;
-	/*height: 57vh;*/
-	margin-left: -2%;
-	margin-top: 2%;
+    width: 100%;
+    /*height: 57vh;*/
+    margin-left: -2%;
+    margin-top: 2%;
 }
 
 .recently-played ol {
-	margin-top: 0;
-	height: 50vh;
-	overflow-x: hidden;
-	overflow-y: scroll;
+    margin-top: 0;
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .recently-played ol::-webkit-scrollbar{
-	display: none;
+    display: none;
 }
 
 .head{
-	font-size: 1.2rem;
-	font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .head h2{
-	display: inline-block;
+    display: inline-block;
 }
 
 .head a{
-	float: right;
-	margin-top: 8.5%;
-	font-family: 'Varta', sans-serif;
+    float: right;
+    margin-top: 8.5%;
+    font-family: 'Varta', sans-serif;
 } 
 
 .rp-img {
-	height: 4rem;
-	width: 4rem;
-	background-size: cover;
-	margin-top: 2%;
-	margin-right: 3%;
-	margin-left: -3%;
+    height: 4rem;
+    width: 4rem;
+    background-size: cover;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: -3%;
 }
 
 .more-det2 {
-	float: right;
-	margin-top: 5%;
+    float: right;
+    margin-top: 5%;
 }
 
 
 /*-----------------------------------------------------footer--------------------------------------------------------*/
 
 .footer {
-	width: 100%;
-	height: 15vh;
-	margin: 0 -8px;
-	background-color: #282729;
-	visibility: hidden;
-	position: fixed;
-	bottom: 0;
-	color: white;
-	font-family: sans-serif;
-	display: flex;
-	justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    margin: 0 -8px;
+    background-color: #282729;
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer:target {
-	visibility: visible;
+    visibility: visible;
 }
 
 
 .footer div {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .play-song{
-	margin-top: 1%;
-	margin-left: 3%;
-	width: 30%;
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 30%;
 }
 
 .song-img3{
-	height: 5.25rem;
-	width: 5.25rem;
-	background-image: url(images/letMeLoveYou.jpg);
-	background-size: cover;
-	background-position: center;
+    height: 5.25rem;
+    width: 5.25rem;
+    background-image: url(images/letMeLoveYou.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .s-det{
-	font-family: 'Noto Sans JP',  sans-serif;
-	margin-left: 2.5%;
+    font-family: 'Noto Sans JP',  sans-serif;
+    margin-left: 2.5%;
 }
 
 .s-det p{
-	font-size: 1.05rem;
+    font-size: 1.05rem;
 }
 
 .player{
-	width: 40%;
-	margin-left: 10%;
-	/*background-color: red;*/
+    width: 40%;
+    margin-left: 10%;
+    /*background-color: red;*/
 
 }
 
 .p1 {
-	margin-left: 16%;
-	font-size: 1.5rem;
+    margin-left: 16%;
+    font-size: 1.5rem;
 }
 
 .slidecontainer{
-	display: inline-block;
-	width: 55%;
-	margin-top: 0;
+    display: inline-block;
+    width: 55%;
+    margin-top: 0;
 }
 
 .slider {
-	width: 100%;
+    width: 100%;
 }
 
 .more-options{
-	font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .slider2 {
-	width: 50%;
+    width: 50%;
 }
 
 
 /*----------------------media queries-------------*/
 
 @media screen and (max-width: 1450px){
-	#nav-right{
-		margin-left: 30%;
-	}
+    #nav-right{
+        margin-left: 30%;
+    }
 }
 
 @media screen and (max-width:1280px){
-	#nav-right{
-		margin-left: 32%;
-	}
+    #nav-right{
+        margin-left: 32%;
+    }
 
-	.search-bar{
-		width: 12rem;
-	}
+    .search-bar{
+        width: 12rem;
+    }
 
-	.popular-songs{
-		margin-left: 0;
-	}
+    .popular-songs{
+        margin-left: 0;
+    }
 }
 
 
 @media screen and (max-width:1024px){
-	#nav-right{
-		margin-left: 25%;
-	}
+    #nav-right{
+        margin-left: 25%;
+    }
 
-	.search-bar{
-		width: 6rem;
-	}
+    .search-bar{
+        width: 6rem;
+    }
 
-	.popular-songs{
-		margin-left: -1%;
-	}
+    .popular-songs{
+        margin-left: -1%;
+    }
 
-	.play-song {
-		width: 32%;
-	}
+    .play-song {
+        width: 32%;
+    }
 
-	.song-detail{
-		font-size: 0.9rem;
-	}
+    .song-detail{
+        font-size: 0.9rem;
+    }
 
-	.popular-songs{
-		height: auto;
-	}
+    .popular-songs{
+        height: auto;
+    }
 
-	.footer{
-		height: auto;
-	}
+    .footer{
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 950px){
-	.aside {
-		display:none;
-	}
+    .aside {
+        display:none;
+    }
 
-	.artist {
-		width: 90vw;
-	}
+    .artist {
+        width: 90vw;
+    }
 
-	.popular-songs{
-		width: 90vw;
-		margin-left: -2%;
-	}
+    .popular-songs{
+        width: 90vw;
+        margin-left: -2%;
+    }
 
-	.play-song{
-		width: 45%;
+    .play-song{
+        width: 45%;
 
-	}
+    }
 
-	.player{
-		margin-left: 2%;
-	}
+    .player{
+        margin-left: 2%;
+    }
 
-	.p1{
-		font-size: 1.2rem;
-		margin-left: 8%;
-	}
+    .p1{
+        font-size: 1.2rem;
+        margin-left: 8%;
+    }
 }
 
 
 @media screen and (max-width: 839px){
 
-	#nav-right{
-		margin-left: 5%;
-	}
+    #nav-right{
+        margin-left: 5%;
+    }
 }
 
 @media screen and (max-width: 600px){
 
-	#follow{
-		margin-top: 8%;
-	}
+    #follow{
+        margin-top: 8%;
+    }
 
-	.search-bar{
-		width: 2rem;
-	}
+    .search-bar{
+        width: 2rem;
+    }
 
-	#home{
-		margin-left: 0;
-	}
+    #home{
+        margin-left: 0;
+    }
 
-	.image{
-		background-size: contain;
-		background-repeat: no-repeat;
-		margin-top: 7%;
-		/*height: 100%;*/
-	}
+    .image{
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 7%;
+        /*height: 100%;*/
+    }
 
-	.popular-songs{
-		margin-left: -8%;
-	}
+    .popular-songs{
+        margin-left: -8%;
+    }
 
-	.play-song{
-		width: 50%;
-	}
+    .play-song{
+        width: 50%;
+    }
 
-	.s-det{
-		width: 60%;
-	}
+    .s-det{
+        width: 60%;
+    }
 
-	.s-det p {
-		font-size: 0.7rem;
-	}
+    .s-det p {
+        font-size: 0.7rem;
+    }
 
-	.song-img3{
-		height: 5rem;
-		width: 3rem;
-	}
+    .song-img3{
+        height: 5rem;
+        width: 3rem;
+    }
 
-	.player{
-		margin-left: 0;
-	}
+    .player{
+        margin-left: 0;
+    }
 
-	.p1{
-		font-size: 0.8rem;
-		margin-left: 12%;
-	}
+    .p1{
+        font-size: 0.8rem;
+        margin-left: 12%;
+    }
 
-	.more-options{
-		font-size: 0.8rem;
-		width: 20%;
-	}
+    .more-options{
+        font-size: 0.8rem;
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 450px){
-	.footer2{
-		margin-top: 0;
-	}
+    .footer2{
+        margin-top: 0;
+    }
 
-	.details p{
-		font-size: 0.9rem;
-	}
+    .details p{
+        font-size: 0.9rem;
+    }
 
-	.s-det{
-		font-size: 0.6rem;
-	}
+    .s-det{
+        font-size: 0.6rem;
+    }
 
-	.extra-options{
-		margin-top: 5%;
-		margin-right: 5%;
-	}
+    .extra-options{
+        margin-top: 5%;
+        margin-right: 5%;
+    }
 }
 
 @media screen and (max-width: 420px){
 
-	.artist{
-		height: 250px;
-	}
-	.details p{
-		/*display: none;*/
-		font-size: 0.7rem;
-	}
+    .artist{
+        height: 250px;
+    }
+    .details p{
+        /*display: none;*/
+        font-size: 0.7rem;
+    }
 
-	#follow{
-		font-size: 0.9rem;
-	}
+    #follow{
+        font-size: 0.9rem;
+    }
 
-	.footer2 a{
-		font-size: 1rem;
-	}
+    .footer2 a{
+        font-size: 1rem;
+    }
 
-	.header h2{
-		font-size: 1.2rem;
-	}
+    .header h2{
+        font-size: 1.2rem;
+    }
 
-	.details{
-		box-sizing: border-box;
-		width: 15rem;
-	}
+    .details{
+        box-sizing: border-box;
+        width: 15rem;
+    }
 
-	.popular-songs{
-		margin-left: -12%;
-	}
+    .popular-songs{
+        margin-left: -12%;
+    }
 }
 
 @media screen and (max-width: 380px){
-	.details p{
-		/*display: none;*/
-		font-size: 0.6rem;
-	}
+    .details p{
+        /*display: none;*/
+        font-size: 0.6rem;
+    }
 
-	#follow{
-		font-size: 0.7rem;
-	}
+    #follow{
+        font-size: 0.7rem;
+    }
 
-	.footer2 button , .footer2 span{
-		font-size: 0.8rem;
-	}
+    .footer2 button , .footer2 span{
+        font-size: 0.8rem;
+    }
 
-	.header h2{
-		font-size: 1rem;
-	}
+    .header h2{
+        font-size: 1rem;
+    }
 
-	.details{
-		box-sizing: border-box;
-		width: 13rem;
-	}
+    .details{
+        box-sizing: border-box;
+        width: 13rem;
+    }
 
-	.extra-options i{
-		font-size: 1rem;
-	}
+    .extra-options i{
+        font-size: 1rem;
+    }
 
-	.extra-options {
-		font-size: 1rem;
-		margin-top: 5%;
-		margin-right: -5%;
-	}
+    .extra-options {
+        font-size: 1rem;
+        margin-top: 5%;
+        margin-right: -5%;
+    }
 }
 
 @media screen and (max-width: 375px){
-	.details p{
-		/*display: none;*/
-		font-size: 0.6rem;
-	}
+    .details p{
+        /*display: none;*/
+        font-size: 0.6rem;
+    }
 
-	#follow{
-		font-size: 0.7rem;
-	}
+    #follow{
+        font-size: 0.7rem;
+    }
 
-	.footer2 button , .footer2 span{
-		font-size: 0.8rem;
-	}
+    .footer2 button , .footer2 span{
+        font-size: 0.8rem;
+    }
 
-	.header h2{
-		font-size: 0.8rem;
-	}
+    .header h2{
+        font-size: 0.8rem;
+    }
 
-	.header span {
-		font-size: 0.6rem;
-	}
+    .header span {
+        font-size: 0.6rem;
+    }
 
-	.details{
-		box-sizing: border-box;
-		width: 11rem;
-	}
+    .details{
+        box-sizing: border-box;
+        width: 11rem;
+    }
 
-	.s-det p , .s-det span{
-		font-size: 0.8rem; !important 
-	}
+    .s-det p , .s-det span{
+        font-size: 0.8rem; !important 
+    }
 
-	.popular-songs{
-		margin-left: -15%;
-	}
+    .popular-songs{
+        margin-left: -15%;
+    }
 
-	.song-detail h4{
-		font-size: 0.7rem;
-	}
+    .song-detail h4{
+        font-size: 0.7rem;
+    }
 }
+s
