@@ -2,25 +2,25 @@
 /*--------------------------------------few general settings--------------------------------------------------*/
 
 body{
-	background-color: #0C1027;
-	/*position: relative;*/
+    background-color: #0C1027;
+    /*position: relative;*/
 }
 
 a{
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 main{
-	display: inline-block;
-	/*background-color: red;*/
-	width: 67vw;
-	height: auto;
-	/*position: absolute;*/
+    display: inline-block;
+    /*background-color: red;*/
+    width: 67vw;
+    height: auto;
+    /*position: absolute;*/
 }
 
 button:focus, input:focus {
-	outline: none;
+    outline: none;
 }
 
 
@@ -29,145 +29,143 @@ button:focus, input:focus {
 /*---------list settings--*/
 
 .list{
-	visibility: hidden;
-	display: block;
-	min-width: 150px;
-	width: auto;
-	height: auto;
-	position: absolute;
-	list-style: none;
-	z-index: 2;
-	background-color: white;
-	padding-left: 0px;
+    visibility: hidden;
+    display: block;
+    min-width: 150px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    list-style: none;
+    z-index: 2;
+    background-color: white;
+    padding-left: 0px;
 }
 
-.list:target {
-	visibility: visible;
-}
+
 
 
 .list-item {
-	width: auto ;
-	height: auto;
-	padding: 5px;
-	color: black;
-	font-size: 0.8rem;
-	margin-left: 0;
-	margin-bottom: 5px;
+    width: auto ;
+    height: auto;
+    padding: 5px;
+    color: black;
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-bottom: 5px;
 }
 
 .cross-btn {
-	float: right;
-	color: black;
-	font-size: 1rem;
+    float: right;
+    color: black;
+    font-size: 1rem;
 }
 
 
 /*--------------------------------------------------------------navbar---------------------------------------------------------*/
 
 .nav{
-	width: inherit; 
-	height: 4vh;
-	padding: 1% 1.8%;
-	margin:0;
-	margin-top: 20px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	color: white;
-	/*position: absolute;*/
+    width: inherit; 
+    height: 4vh;
+    padding: 1% 1.8%;
+    margin:0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    /*position: absolute;*/
 }
 
 #nav-left{
-	display: flex;
+    display: flex;
 }
 
 /*styling of "favourites"*/
 
 .nav span {  
-	margin-left: 8.5%;
-	font-size: 1rem;
-	font-family: sans-serif;
-	letter-spacing: 0.05rem;
+    margin-left: 8.5%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.05rem;
 }
 
 .studio-name {
-	margin-left: 10px;
-	margin-top: 5px;
-	color: white;
-	font-family: sans-serif;
-	letter-spacing: 0.02rem;
-	font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 0.02rem;
+    font-size: 1rem;
 }
 
 .nav i {
-	font-size: 2.8rem;
-	color: white;
+    font-size: 2.8rem;
+    color: white;
 }
 
 #nav-right{
-	display: flex;
-	margin-left:45%;
+    display: flex;
+    margin-left:45%;
 }
 
 #nav-right form {
-	display: inline-block;
+    display: inline-block;
 }
 
 #nav-right i {
-	font-size: 1.3rem;
-	/*margin-top: 5px;*/
-	padding: 0 ;
+    font-size: 1.3rem;
+    /*margin-top: 5px;*/
+    padding: 0 ;
 }
 
 #nav-right button {
-	background-color: #12193E;
-	padding: 0 ;
-	padding-left: 3px;
-	height: 1.9rem;
-	width: 2rem;
-	border: none;
-	/*border-bottom-left-radius: 0.5rem;*/
+    background-color: #12193E;
+    padding: 0 ;
+    padding-left: 3px;
+    height: 1.9rem;
+    width: 2rem;
+    border: none;
+    /*border-bottom-left-radius: 0.5rem;*/
 }
 
 .s-icon{
-	border-bottom-left-radius: 0.5rem;
-	border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
 }
 
 .mic{
-	border-bottom-right-radius: 0.5rem;
-	border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .search-bar{
-	/*border-radius: 0.5rem;*/
-	background-color: #12193E;
-	border: 0px solid transparent;
-	color: white;
-	padding: 6px;
-	padding-left: 8px;
-	font-size: 1rem;
-	width: 17rem;
+    /*border-radius: 0.5rem;*/
+    background-color: #12193E;
+    border: 0px solid transparent;
+    color: white;
+    padding: 6px;
+    padding-left: 8px;
+    font-size: 1rem;
+    width: 17rem;
 }
 
 #nav-right .bell-icon {
-	margin-left: 40px;
-	font-size: 1.3rem;
-	margin-top: 5px;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    margin-top: 5px;
 }
 
 .profile img {
-	border-radius: 50%;
-	height: 50px;
-	width: 50px;
-	margin-left: 35px;
-	margin-right: 20px;
-	margin-top: -10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-top: -10px;
 }
 
 .q-h{
-	display: none;
+    display: none;
 }
 
 /*nav bar ends*/
@@ -177,686 +175,696 @@ button:focus, input:focus {
 /*------------------------------------------------- 1. categories*/
 
 .categories{
-	width: 63vw;
-	height: auto;
-	margin-left: 5%;
-	margin-top: 4%;
-	display: flex;
-	justify-content: flex-start;
+    width: 63vw;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .category{
-	margin-right: 1.35rem;
-	height: 14.5rem;
-	width: 32%;
-	transition: all ease-in-out;
-	transition-duration: 0.2s;
-	background-size: cover;
-	background-position: center;
-	min-width: 200px;
+    margin-right: 1.35rem;
+    height: 14.5rem;
+    width: 32%;
+    transition: all ease-in-out;
+    transition-duration: 0.2s;
+    background-size: cover;
+    background-position: center;
+    min-width: 200px;
 }
 
 .category:hover{
-	transform: scaleX(1.3) scaleY(1.15);
-	
+    transform: scaleX(1.3) scaleY(1.15);
+    
 }
 
 /*-------------------------------------------- 2. latest-releases */
 
 .latest-releases{
-	width: 63vw;
-	height: auto;
-	position: relative;
-	margin-left: 5%;
-	margin-top: 4%;
+    width: 63vw;
+    height: auto;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 4%;
 }
 
 .songs {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .songs div{
-	display: inline-block;
+    display: inline-block;
 }
 
 .heading {
-	font-size: 1.3rem;
-	font-family: 'Roboto Condensed', sans-serif;
-	color: white;
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
 }
 
 .release-song{
-	position: relative;
-	width: 46%;
-	height: auto;
-	margin:5px 20px;
-	margin-left: 0;
-	margin-bottom: 0;
+    position: relative;
+    width: 46%;
+    height: auto;
+    margin:5px 20px;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 .rel-song{
-	color: white;
-	font-size: 2rem;
-	background-size: cover;
-	background-position: center;
-	width: 5rem;
-	height: 5rem;
-	margin: 10px;
-	margin-left: 0;
+    color: white;
+    font-size: 2rem;
+    background-size: cover;
+    background-position: center;
+    width: 5rem;
+    height: 5rem;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.btn:focus .list
+{
+    visibility: visible;
 }
 
 .play{
-	font-size: 2rem;
-	top:30px;
-	left: 25px;
-	position: absolute;
-	color: transparent;
+    font-size: 2rem;
+    top:30px;
+    left: 25px;
+    position: absolute;
+    color: transparent;
 }
 
 .rel-song:hover{
-	background-color: grey;
-	opacity: 0.8;
+    background-color: grey;
+    opacity: 0.8;
 }
 
 .rel-song:hover a{
-	color: white;
+    color: white;
 } 
 
 
 .song-details{
-	display: inline-block;
-	color: white;
-	vertical-align: top;
-	margin-top: 25px;
-	margin-left: 5px;
-	font-family: sans-serif;
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-family: sans-serif;
 }
 
 .song-details p {
-	margin-top: 10px;
-	font-size: 0.7rem;
-	color: #9B9C9F;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    color: #9B9C9F;
 }
 
 .more-details {
-	display: inline-block;
-	vertical-align: top;
-	float: right;
-	color: white;
-	font-size: 0.8rem;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    color: white;
+    font-size: 0.8rem;
 }
 
 /*.btn{
-	float: right;
-	background: transparent;
-	color: white;
-	border: 0px solid transparent;
-	font-size: 1rem;
+    float: right;
+    background: transparent;
+    color: white;
+    border: 0px solid transparent;
+    font-size: 1rem;
 }*/
 
 .btn{
-	float: right;
-	background: transparent;
-	border: 0px solid transparent;
-	color: white;
-	font-size: 1rem;
-	cursor: pointer;
+    float: right;
+    background: transparent;
+    border: 0px solid transparent;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 /*---------------------------------------------------------3. popular artists*/
 
 .popular-artists {
-	width: 63vw;
-	height: auto;
-	position: relative;
-	margin-left: 5%;
-	margin-top: 4%;
+    width: 63vw;
+    height: auto;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 4%;
 }
 
 .artists {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .artistImg {
-	border-radius: 100%;
-	width:8rem;
-	height:8rem;
-	background-size: cover;
-	background-position: center;
-	/*margin-right: 10px;*/
+    border-radius: 100%;
+    width:8rem;
+    height:8rem;
+    background-size: cover;
+    background-position: center;
+    /*margin-right: 10px;*/
 }
 
 .artistImg:hover {
-	background-color: grey;
-	opacity: 0.5;
+    background-color: grey;
+    opacity: 0.5;
 }
 
 .artistImg:hover a{
-	color: white;
+    color: white;
 }
 
 /*-------------------4. music acc to mood---------------*/
 
 .music-stations {
-	width: 63vw;
-	height: auto;
-	position: relative;
-	background-color: #101642;
-	margin-left: 5%;
-	margin-top: 4%;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	min-width: 700px;
+    width: 63vw;
+    height: auto;
+    position: relative;
+    background-color: #101642;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    min-width: 700px;
 }
 
 .stn-types{
-	padding: 15px 0 ;
-	width:8rem;
-	height:8rem;
-	/*margin-left: 2%;*/
+    padding: 15px 0 ;
+    width:8rem;
+    height:8rem;
+    /*margin-left: 2%;*/
 }
 
 .stn-types img {
-	width: inherit;
-	height: inherit;
-	border-radius: 100%;
-	background-position: center;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    background-position: center;
 } 
 
 /*----------------------------------------------------------------music types--------*/
 
 .stn-div{
 
-	width: 63vw;
-	height: auto;
-	position: relative;
-	background-color: transparent;
-	margin-left: 5%;
-	margin-top: 4%;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	margin-right: 1rem;
-	color: white;
-	min-width: 700px;
+    width: 63vw;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+    color: white;
+    min-width: 700px;
 }
 
 .genre{
-	position: relative;
-	background: linear-gradient(to bottom,#C99460,#A8414D);
-	width: 40%;
-	height: 10rem;
-	overflow: hidden;
-	/*margin-right: 3%;*/
+    position: relative;
+    background: linear-gradient(to bottom,#C99460,#A8414D);
+    width: 40%;
+    height: 10rem;
+    overflow: hidden;
+    /*margin-right: 3%;*/
 }
 
 .two{
-	background: linear-gradient(to bottom,#75CCF3,#526CC4);
+    background: linear-gradient(to bottom,#75CCF3,#526CC4);
 }
 
 .three{
-	background: linear-gradient(to bottom,#9B95D3,#826C99);
+    background: linear-gradient(to bottom,#9B95D3,#826C99);
 }
 
 .genre p {
-	left: 20%;
-	position: absolute;
-	top:15%;
-	font-size: 2.5rem;
-	color: white;
-	/*text-align: center;*/
-	font-family: sans-serif;
-	font-weight: 500;
+    left: 20%;
+    position: absolute;
+    top:15%;
+    font-size: 2.5rem;
+    color: white;
+    /*text-align: center;*/
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 .genre img{
-	height: 100%;
-	width: 100%;
-	opacity: 0.5;
-	transition: 0.2s ease-in-out ;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: 0.2s ease-in-out ;
 }
 
 .genre img:hover{
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 /*----------------------------------------------------------------6. latest english */
 
 .latest-eng-hindi{
-	width: 63vw;
-	height: auto;
-	position: relative;
-	margin-left: 5%;
-	margin-top: 4%;
-	min-width: 700px;
+    width: 63vw;
+    height: auto;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 4%;
+    min-width: 700px;
 }
 
 .all-songs{
-	display: flex;
-	overflow-y:hidden;
-	overflow-x: scroll;
-	scroll-behavior: smooth;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 20px;
+    display: flex;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .all-songs::-webkit-scrollbar{
-	display: none;
+    display: none;
 }
 
 .song img {
-	border-radius: 4%;
-	width:8rem;
-	height:8rem;
-	min-width: 8rem;
-	margin-right: 15px;
+    border-radius: 4%;
+    width:8rem;
+    height:8rem;
+    min-width: 8rem;
+    margin-right: 15px;
 }
 
 .song-name {
-	display: block;
-	color: white;
-	font-size: 0.9rem;
-	margin-top: 5px;
-	font-weight: 500;
-	font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .song-date {
-	display: block;
-	color: #9B9C9F ;
-	font-size: 0.8rem;
-	margin-top: 4px;
-	font-family: 'Noto Sans JP', sans-serif;
-	/*font-weight: 300;*/
+    display: block;
+    color: #9B9C9F ;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+    /*font-weight: 300;*/
 }
 
 
 /*--------------------------------------------------------------Queue section----------------------------------------------------------*/
 
 aside{
-	display: inline-block;
-	width: 30vw;
-	height: auto;
-	/*background-color: yellow;*/
-	vertical-align: top;
-	margin-left: 5px;
-	margin-top: 10px;
-	/*position: fixed;*/
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+    /*background-color: yellow;*/
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 10px;
+    /*position: fixed;*/
 }
 
+.btn-2:focus .list2
+{
+    visibility: visible;
+
+}
 .queue-header{
-	float: left;
-	width: inherit;
+    float: left;
+    width: inherit;
 }
 
 .queue-header > span {
-	font-size: 1.5rem;
-	color: white;
-	font-family: 'Noto Sans JP', sans-serif;
-	font-weight: 800;
-	padding: 5px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 800;
+    padding: 5px;
 }
 
 .queue-dropdown {
-	display: inline-block;
-	float: right;
-	/*background-color: yellow;*/
-	margin-right: 15%;
-	margin-top: 0.5rem;
-	/*background: transparent;*/
+    display: inline-block;
+    float: right;
+    /*background-color: yellow;*/
+    margin-right: 15%;
+    margin-top: 0.5rem;
+    /*background: transparent;*/
 }
 
 .queue-dropdown > a{
-	background: transparent;
-	font-size: 1rem;
-	color: white;
-	border: 0px solid transparent;
-	font-family: 'Noto Sans JP', sans-serif;
+    background: transparent;
+    font-size: 1rem;
+    color: white;
+    border: 0px solid transparent;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .list2{
-	visibility: hidden;
-	display: block;
-	min-width: 100px;
-	width: auto;
-	height: auto;
-	position: absolute;
-	list-style: none;
-	z-index: 2;
-	background-color: white;
-	padding-left: 0px;
-	margin-right: 10px;
-	margin-left: -20px;
+    visibility: hidden;
+    display: block;
+    min-width: 100px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    list-style: none;
+    z-index: 2;
+    background-color: white;
+    padding-left: 0px;
+    margin-right: 10px;
+    margin-left: -20px;
 }
 
 .list2:target {
-	visibility: visible;
+    visibility: visible;
 }
 
 
 .list-item2 {
-	width: auto ;
-	min-width: 150px;
-	height: auto;
-	padding: 5px;
-	color: black;
-	font-size: 0.9rem;
-	margin-left: 0;
-	margin-bottom: 5px;
-	font-weight: 600;
+    width: auto ;
+    min-width: 150px;
+    height: auto;
+    padding: 5px;
+    color: black;
+    font-size: 0.9rem;
+    margin-left: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
 
 }
 
 .h-song-list {
-	width: inherit;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	/*background-color: red;*/
+    width: inherit;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /*background-color: red;*/
 }
 
 .h-song-list::-webkit-scrollbar{
-	display: none;
+    display: none;
 }
 
 /*----------------------------------------------queue list---------------*/
 
 .queue-list{
-	width: 25vw;
-	height: 100vh;
-	/*background-color: yellow;*/
-	overflow-x: hidden;
-	overflow-y: scroll;
-	position: relative;
+    width: 25vw;
+    height: 100vh;
+    /*background-color: yellow;*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
 }
 
 .queue-list::-webkit-scrollbar{
-	display: none;
+    display: none;
 }
 
 .list-item3 {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .list-item3 div {
-	display: inline-block;
+    display: inline-block;
 }
 
 .rp-img {
-	height: 5rem;
-	width: 5rem;
-	background-size: cover;
-	margin-top: 7%;
-	margin-right: 3%;
-	margin-left: -3%;
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    margin-top: 7%;
+    margin-right: 3%;
+    margin-left: -3%;
 }
 .song-det {
-	margin-left: 3%;
-	font-family: sans-serif;
-	vertical-align: top;
-	color: white;
-	margin-top: 4%;
+    margin-left: 3%;
+    font-family: sans-serif;
+    vertical-align: top;
+    color: white;
+    margin-top: 4%;
 }
 
 
 .song-det h3 {
-	margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 
 .more-det2 {
-	margin-left: 12%;
-	float: right;
-	margin-top: 12%;
+    margin-left: 12%;
+    float: right;
+    margin-top: 12%;
 }
 
 .heart{
-	float: right;
-	font-size: 1rem;
-	/*margin-bottom: -5%;*/
+    float: right;
+    font-size: 1rem;
+    /*margin-bottom: -5%;*/
 }
 
 /*-----------------------------------------------------footer--------------------------------------------------------*/
 
 .footer {
-	width: 100%;
-	height: 15vh;
-	margin: 0 -8px;
-	background-color: #282729;
-	visibility: hidden;
-	position: fixed;
-	bottom: 0;
-	color: white;
-	font-family: sans-serif;
+    width: 100%;
+    height: 15vh;
+    margin: 0 -8px;
+    background-color: #282729;
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    font-family: sans-serif;
 }
 
 .footer:target {
-	visibility: visible;
+    visibility: visible;
 }
 
 
 .footer div {
-	display: inline-block;
-	vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .play-song{
-	margin-top: 1%;
-	margin-left: 3%;
-	width: 26%;
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 26%;
 }
 
 .song-img {
-	height: 5.25rem;
-	width: 5.25rem;
-	background-image: url(images/letMeLoveYou.jpg);
-	background-size: cover;
-	background-position: center;
+    height: 5.25rem;
+    width: 5.25rem;
+    background-image: url(images/letMeLoveYou.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .s-det{
-	font-family: 'Noto Sans JP',  sans-serif;
-	margin-left: 2.5%;
+    font-family: 'Noto Sans JP',  sans-serif;
+    margin-left: 2.5%;
 }
 
 .player{
-	width: 40%;
-	margin-left: 10%;
-	/*background-color: red;*/
+    width: 40%;
+    margin-left: 10%;
+    /*background-color: red;*/
 
 }
 
 .p1 {
-	margin-left: 16%;
-	font-size: 1.5rem;
+    margin-left: 16%;
+    font-size: 1.5rem;
 }
 
 .slidecontainer{
-	display: inline-block;
-	width: 55%;
-	margin-top: 0;
+    display: inline-block;
+    width: 55%;
+    margin-top: 0;
 }
 
 .slider {
-	width: 100%;
+    width: 100%;
 }
 
 .more-options{
-	font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .slider2 {
-	width: 50%;
+    width: 50%;
 }
 
 /*----------------------------------media queries-----------------*/
 
 @media screen and (max-width: 1450px){
-	#nav-right{
-		margin-left: 30%;
-	}
+    #nav-right{
+        margin-left: 30%;
+    }
 
-	aside{
-		width: 25vw;
-	}
+    aside{
+        width: 25vw;
+    }
 }
 
 @media screen and (max-width:1280px){
-	#nav-right{
-		margin-left: 32%;
-	}
+    #nav-right{
+        margin-left: 32%;
+    }
 
-	.search-bar{
-		width: 12rem;
-	}
+    .search-bar{
+        width: 12rem;
+    }
 
 }
 
 @media screen and (max-width: 1170px){
-	.queue2{
-		display: none;
-	}
+    .queue2{
+        display: none;
+    }
 
-	main{
-		width: 90vw;
-	}
+    main{
+        width: 90vw;
+    }
 
-	.categories , .latest-eng-hindi, .stn-div, .popular-artists, .latest-releases , .music-stations{
-		width: 100%;
-	}
+    .categories , .latest-eng-hindi, .stn-div, .popular-artists, .latest-releases , .music-stations{
+        width: 100%;
+    }
 
-	.q-h{
-		display: inline-block;
-	}
+    .q-h{
+        display: inline-block;
+    }
 
-	.fav{
-		display: none;
-	}
+    .fav{
+        display: none;
+    }
 /*
-	.queue2:target{
-		width: 90vw;
-		z-index: 2;
-		top:90px;
-		left: 37px;
-		display: block;
-		height: auto;
-		position: absolute;
-	}*/
+    .queue2:target{
+        width: 90vw;
+        z-index: 2;
+        top:90px;
+        left: 37px;
+        display: block;
+        height: auto;
+        position: absolute;
+    }*/
 
 }
 
 
 @media screen and (max-width:1024px){
-	#nav-right{
-		margin-left: 25%;
-	}
+    #nav-right{
+        margin-left: 25%;
+    }
 
-	.search-bar{
-		width: 6rem;
-	}
+    .search-bar{
+        width: 6rem;
+    }
 
-	.play-song {
-		width: 32%;
-	}
+    .play-song {
+        width: 32%;
+    }
 
 }
 
 @media screen and (max-width: 950px){
 
-	.play-song{
-		width: 45%;
+    .play-song{
+        width: 45%;
 
-	}
+    }
 
-	.player{
-		margin-left: 2%;
-	}
+    .player{
+        margin-left: 2%;
+    }
 
-	.p1{
-		font-size: 1.2rem;
-		margin-left: 8%;
-	}
+    .p1{
+        font-size: 1.2rem;
+        margin-left: 8%;
+    }
 
 }
 
 
 @media screen and (max-width: 839px){
 
-	#nav-right{
-		margin-left: 5%;
-	}
+    #nav-right{
+        margin-left: 5%;
+    }
 
-	.artistImg{
-		width: 7.5rem;
-		height: 7.5rem;
-		margin-right: 0;
-	}
+    .artistImg{
+        width: 7.5rem;
+        height: 7.5rem;
+        margin-right: 0;
+    }
 
-	.stn-types img {
-		width:7.25rem;
-		height:7.5rem;
-	} 
+    .stn-types img {
+        width:7.25rem;
+        height:7.5rem;
+    } 
 }
 
 @media screen and (max-width: 600px){
 
-	.play-song{
-		width: 50%;
-	}
+    .play-song{
+        width: 50%;
+    }
 
-	.search-bar{
-		width: 2rem;
-	}
+    .search-bar{
+        width: 2rem;
+    }
 
-	.s-det{
-		width: 60%;
-	}
+    .s-det{
+        width: 60%;
+    }
 
-	.s-det p {
-		font-size: 0.7rem;
-	}
+    .s-det p {
+        font-size: 0.7rem;
+    }
 
-	.song-img{
-		height: 5rem;
-		width: 3rem;
-	}
+    .song-img{
+        height: 5rem;
+        width: 3rem;
+    }
 
-	.player{
-		margin-left: 0;
-	}
+    .player{
+        margin-left: 0;
+    }
 
-	.p1{
-		font-size: 0.8rem;
-		margin-left: 12%;
-	}
+    .p1{
+        font-size: 0.8rem;
+        margin-left: 12%;
+    }
 
-	.more-options{
-		font-size: 0.8rem;
-		width: 20%;
-	}
+    .more-options{
+        font-size: 0.8rem;
+        width: 20%;
+    }
 
-	.release-song{
-		width: 100%;
-	}
+    .release-song{
+        width: 100%;
+    }
 
-	.song-name{
-		font-size: 0.8rem;
-	}
+    .song-name{
+        font-size: 0.8rem;
+    }
 
-	.song-date{
-		font-size: 0.6rem;
-	}
+    .song-date{
+        font-size: 0.6rem;
+    }
 
 }
