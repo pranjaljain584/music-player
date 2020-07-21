@@ -166,6 +166,10 @@ button:focus, input:focus {
 	margin-top: -10px;
 }
 
+.q-h{
+	display: none;
+}
+
 /*nav bar ends*/
 
 /*-----------------------------------------------main section--------------------------------------------------------------------------*/
@@ -189,6 +193,7 @@ button:focus, input:focus {
 	transition-duration: 0.2s;
 	background-size: cover;
 	background-position: center;
+	min-width: 200px;
 }
 
 .category:hover{
@@ -283,12 +288,21 @@ button:focus, input:focus {
 	font-size: 0.8rem;
 }
 
-.btn{
+/*.btn{
 	float: right;
 	background: transparent;
 	color: white;
 	border: 0px solid transparent;
 	font-size: 1rem;
+}*/
+
+.btn{
+	float: right;
+	background: transparent;
+	border: 0px solid transparent;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
 }
 
 /*---------------------------------------------------------3. popular artists*/
@@ -711,7 +725,7 @@ aside{
 }
 
 @media screen and (max-width: 1170px){
-	aside{
+	.queue2{
 		display: none;
 	}
 
@@ -722,6 +736,24 @@ aside{
 	.categories , .latest-eng-hindi, .stn-div, .popular-artists, .latest-releases , .music-stations{
 		width: 100%;
 	}
+
+	.q-h{
+		display: inline-block;
+	}
+
+	.fav{
+		display: none;
+	}
+/*
+	.queue2:target{
+		width: 90vw;
+		z-index: 2;
+		top:90px;
+		left: 37px;
+		display: block;
+		height: auto;
+		position: absolute;
+	}*/
 
 }
 
@@ -817,6 +849,10 @@ aside{
 
 	.release-song{
 		width: 100%;
+	}
+
+	.song-name{
+		font-size: 
 	}
 
 }
