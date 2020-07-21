@@ -852,7 +852,11 @@ aside{
 	}
 
 	.song-name{
-		font-size: 
+		font-size: 0.8rem;
+	}
+
+	.song-date{
+		font-size: 0.6rem;
 	}
 
 }
