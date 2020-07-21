@@ -31,7 +31,7 @@ button:focus, input:focus {
 .list{
 	visibility: hidden;
 	display: block;
-	min-width: 150px;
+	min-width: 180px;
 	width: auto;
 	height: auto;
 	position: absolute;
@@ -53,7 +53,13 @@ button:focus, input:focus {
 	color: black;
 	font-size: 0.8rem;
 	margin-left: 0;
+	padding-left: 0;
 	margin-bottom: 5px;
+	text-align: left;
+}
+
+.list-item span{
+	margin-left: 10px;
 }
 
 .cross-btn {
@@ -229,9 +235,9 @@ button:focus, input:focus {
 
 .release-song{
 	position: relative;
-	width: 46%;
+	width: 48%;
 	height: auto;
-	margin:5px 20px;
+	margin:5px 5px;
 	margin-left: 0;
 	margin-bottom: 0;
 }
@@ -286,23 +292,26 @@ button:focus, input:focus {
 	float: right;
 	color: white;
 	font-size: 0.8rem;
+	/*margin-right: -2%;*/
 }
 
-/*.btn{
-	float: right;
-	background: transparent;
-	color: white;
-	border: 0px solid transparent;
-	font-size: 1rem;
-}*/
 
 .btn{
 	float: right;
 	background: transparent;
 	border: 0px solid transparent;
 	color: white;
-	font-size: 1rem;
+	/*font-size: 1rem;*/
 	cursor: pointer;
+}
+
+.btn i{
+	font-size: 1rem;
+}
+
+
+.btn:focus .list{
+    visibility: visible;
 }
 
 /*---------------------------------------------------------3. popular artists*/
@@ -467,6 +476,7 @@ button:focus, input:focus {
 	margin-top: 5px;
 	font-weight: 500;
 	font-family: 'Noto Sans JP', sans-serif;
+	overflow:hidden;
 }
 
 .song-date {
@@ -475,6 +485,7 @@ button:focus, input:focus {
 	font-size: 0.8rem;
 	margin-top: 4px;
 	font-family: 'Noto Sans JP', sans-serif;
+	overflow: hidden;
 	/*font-weight: 300;*/
 }
 
@@ -552,6 +563,24 @@ aside{
 	margin-left: 0;
 	margin-bottom: 5px;
 	font-weight: 600;
+	text-align: left;
+
+}
+
+.btn-2{
+	float: right;
+	background: transparent;
+	border: 0px solid transparent;
+	color: white;
+	cursor: pointer;
+	font-size: 1rem;
+	margin-top: 5px;
+}
+
+
+.btn-2:focus .list2
+{
+    visibility: visible;
 
 }
 
@@ -683,6 +712,10 @@ aside{
 	font-size: 1.5rem;
 }
 
+.s-det p{
+	font-size: 1.05rem;
+}
+
 .slidecontainer{
 	display: inline-block;
 	width: 55%;
@@ -695,6 +728,7 @@ aside{
 
 .more-options{
 	font-size: 1.2rem;
+	/*width: 20%;*/
 }
 
 .slider2 {
@@ -724,7 +758,7 @@ aside{
 
 }
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 1180px){
 	.queue2{
 		display: none;
 	}
@@ -744,16 +778,48 @@ aside{
 	.fav{
 		display: none;
 	}
-/*
+
 	.queue2:target{
-		width: 90vw;
+		width: 96%;
 		z-index: 2;
-		top:90px;
-		left: 37px;
+		top:60px;
+		left: 25px;
 		display: block;
 		height: auto;
 		position: absolute;
-	}*/
+		background-color: #0C1027;
+	}
+
+	.queue-list{
+		width: 85%;
+		height: 100%;
+		margin-bottom: 60%;
+	}
+
+	.s-det{
+		width: 60%;
+	}
+
+	.s-det p {
+		font-size: 1rem;
+	}
+
+	.player{
+		/*width: 50%;*/
+		margin-left: 0%;
+	}
+
+	.p1{
+		font-size: 1rem;
+		margin-left: 28%;
+	}
+
+	.more-options{
+		font-size: 1rem;
+		width: 20%;
+		/*margin-right: -20%;*/
+		margin-left: 0;
+	}
 
 }
 
@@ -780,13 +846,19 @@ aside{
 
 	}
 
-	.player{
-		margin-left: 2%;
-	}
-
 	.p1{
 		font-size: 1.2rem;
-		margin-left: 8%;
+		margin-left: 20%;
+	}
+
+
+	.player{
+		margin-left: -10%;
+	}
+
+	.more-options{
+		width: 20%;
+		/*margin-right: -10%;*/
 	}
 
 }
@@ -808,6 +880,36 @@ aside{
 		width:7.25rem;
 		height:7.5rem;
 	} 
+
+	.s-det{
+		width: 60%;
+	}
+
+	.s-det p {
+		font-size: 0.7rem;
+	}
+
+	.song-img{
+		height: 5rem;
+		width: 3rem;
+	}
+
+	.player{
+		margin-left: -10%;
+	}
+
+	.p1{
+		font-size: 0.8rem;
+		margin-left: 12%;
+	}
+
+	.more-options{
+		font-size: 0.8rem;
+		width: 10%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
 }
 
 @media screen and (max-width: 600px){
@@ -834,7 +936,7 @@ aside{
 	}
 
 	.player{
-		margin-left: 0;
+		margin-left: -10%;
 	}
 
 	.p1{
@@ -844,7 +946,9 @@ aside{
 
 	.more-options{
 		font-size: 0.8rem;
-		width: 20%;
+		width: 10%;
+		margin-right: 0;
+		margin-left: 0;
 	}
 
 	.release-song{
