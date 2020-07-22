@@ -567,45 +567,6 @@ p{
 		display:none;
 	}
 
-	.fav{
-		display: none;
-	}
-
-	.more{
-		display: inline-block;
-	}
-
-	.aside:target{
-		width: 96%;
-		z-index: 2;
-		top:65px;
-		left: 20px;
-		display: block;
-		height: auto;
-		position: absolute;
-		background-color: #0C1027;
-	}
-
-	.heading , .head {
-		margin-top: 2%;
-		margin-left: 2%;
-	}
-
-	.heading a ,.head a{
-		margin-top: 5%;
-		margin-right: 10%;
-	}
-
-	.recently-played ol , .similar-artists ol{
-		width: 85%;
-		height: 100%;
-		/*margin-bottom: 60%;*/
-	}
-
-	.list-item{
-		margin-left: 5%;
-	}
-
 	.artist {
 		width: 90vw;
 	}

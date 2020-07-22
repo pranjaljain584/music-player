@@ -780,20 +780,33 @@ aside{
 	}
 
 	.queue2:target{
-		width: 96%;
+		width: 96%; 
 		z-index: 2;
-		top:80px;
+		top:60px;
 		left: 25px;
 		display: block;
 		height: auto;
 		position: absolute;
 		background-color: #0C1027;
+		min-width: 700px;
+	}
+
+	.queue-header{
+		margin-top: 3%;
+		width: 70%;
 	}
 
 	.queue-list{
 		width: 85%;
 		height: 100%;
-		margin-bottom: 60%;
+		margin-bottom:100%;
+		margin-right: 10%;
+		/*min-width: 600px;*/
+	}
+
+	.more-det2{
+		margin-right: 35%;
+		margin-top: 8%;
 	}
 
 	.s-det{
