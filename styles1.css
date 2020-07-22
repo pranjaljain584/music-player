@@ -782,17 +782,21 @@ aside{
 	.queue2:target{
 		width: 96%; 
 		z-index: 2;
-		top:60px;
+		top:75px;
 		left: 25px;
 		display: block;
 		height: auto;
 		position: absolute;
 		background-color: #0C1027;
-		min-width: 700px;
+		min-width: 720px;
+		padding-top: 5%;
+	}
+
+	.nav{
+		margin-bottom: 15%;
 	}
 
 	.queue-header{
-		margin-top: 3%;
 		width: 70%;
 	}
 
@@ -801,7 +805,6 @@ aside{
 		height: 100%;
 		margin-bottom:100%;
 		margin-right: 10%;
-		/*min-width: 600px;*/
 	}
 
 	.more-det2{
