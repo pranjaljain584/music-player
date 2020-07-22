@@ -2,7 +2,6 @@
 
 body{
 	background-color: #0C1027;
-	/*position: relative;*/
 }
 
 a{
@@ -24,7 +23,6 @@ main{
 	display: inline-block;
 	width: 30vw;
 	height: auto;
-	/*background-color: yellow;*/
 	vertical-align: top;
 	margin-left: 1%;
 	margin-top: 2.5%;
@@ -91,7 +89,6 @@ main{
 
 #nav-right i {
 	font-size: 1.3rem;
-	/*margin-top: 5px;*/
 	padding: 0 ;
 }
 
@@ -102,7 +99,6 @@ main{
 	height: 1.9rem;
 	width: 2rem;
 	border: none;
-	/*border-bottom-left-radius: 0.5rem;*/
 }
 
 .s-icon{
@@ -116,7 +112,6 @@ main{
 }
 
 .search-bar{
-	/*border-radius: 0.5rem;*/
 	background-color: #12193E;
 	border: 0px solid transparent;
 	color: white;
@@ -183,7 +178,6 @@ main{
 
 .intro{
 	float: left;
-	/*margin-top: 2.5%;*/
 	font-family: sans-serif;
 }
 
@@ -203,7 +197,6 @@ main{
 	font-family: sans-serif;
 	font-size: 1rem;
 	margin-right: 12%;
-	/*vertical-align: top;*/
 }
 
 p{
@@ -383,7 +376,6 @@ p{
 
 .recently-played {
 	width: 100%;
-	/*height: 57vh;*/
 	margin-left: -2%;
 	margin-top: 2%;
 }
@@ -481,7 +473,6 @@ p{
 .player{
 	width: 40%;
 	margin-left: 10%;
-	/*background-color: red;*/
 
 }
 
@@ -617,7 +608,6 @@ p{
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin-top: 7%;
-		/*height: 100%;*/
 	}
 
 	.popular-songs{
@@ -681,7 +671,6 @@ p{
 		height: 250px;
 	}
 	.details p{
-		/*display: none;*/
 		font-size: 0.7rem;
 	}
 
@@ -709,7 +698,6 @@ p{
 
 @media screen and (max-width: 380px){
 	.details p{
-		/*display: none;*/
 		font-size: 0.6rem;
 	}
 
@@ -743,7 +731,6 @@ p{
 
 @media screen and (max-width: 375px){
 	.details p{
-		/*display: none;*/
 		font-size: 0.6rem;
 	}
 

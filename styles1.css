@@ -3,7 +3,6 @@
 
 body{
 	background-color: #0C1027;
-	/*position: relative;*/
 }
 
 a{
@@ -13,10 +12,8 @@ a{
 
 main{
 	display: inline-block;
-	/*background-color: red;*/
 	width: 67vw;
 	height: auto;
-	/*position: absolute;*/
 }
 
 button:focus, input:focus {
@@ -26,7 +23,7 @@ button:focus, input:focus {
 
 
 
-/*---------list settings--*/
+/*-----------------------------------------list settings--*/
 
 .list{
 	visibility: hidden;
@@ -81,14 +78,13 @@ button:focus, input:focus {
 	justify-content: flex-start;
 	align-items: center;
 	color: white;
-	/*position: absolute;*/
 }
 
 #nav-left{
 	display: flex;
 }
 
-/*styling of "favourites"*/
+/*----styling of "favourites"*/
 
 .nav span {  
 	margin-left: 8.5%;
@@ -122,7 +118,6 @@ button:focus, input:focus {
 
 #nav-right i {
 	font-size: 1.3rem;
-	/*margin-top: 5px;*/
 	padding: 0 ;
 }
 
@@ -133,7 +128,6 @@ button:focus, input:focus {
 	height: 1.9rem;
 	width: 2rem;
 	border: none;
-	/*border-bottom-left-radius: 0.5rem;*/
 }
 
 .s-icon{
@@ -147,7 +141,6 @@ button:focus, input:focus {
 }
 
 .search-bar{
-	/*border-radius: 0.5rem;*/
 	background-color: #12193E;
 	border: 0px solid transparent;
 	color: white;
@@ -292,7 +285,6 @@ button:focus, input:focus {
 	float: right;
 	color: white;
 	font-size: 0.8rem;
-	/*margin-right: -2%;*/
 }
 
 
@@ -301,7 +293,6 @@ button:focus, input:focus {
 	background: transparent;
 	border: 0px solid transparent;
 	color: white;
-	/*font-size: 1rem;*/
 	cursor: pointer;
 }
 
@@ -337,7 +328,6 @@ button:focus, input:focus {
 	height:8rem;
 	background-size: cover;
 	background-position: center;
-	/*margin-right: 10px;*/
 }
 
 .artistImg:hover {
@@ -368,7 +358,6 @@ button:focus, input:focus {
 	padding: 15px 0 ;
 	width:8rem;
 	height:8rem;
-	/*margin-left: 2%;*/
 }
 
 .stn-types img {
@@ -402,7 +391,6 @@ button:focus, input:focus {
 	width: 40%;
 	height: 10rem;
 	overflow: hidden;
-	/*margin-right: 3%;*/
 }
 
 .two{
@@ -419,7 +407,6 @@ button:focus, input:focus {
 	top:15%;
 	font-size: 2.5rem;
 	color: white;
-	/*text-align: center;*/
 	font-family: sans-serif;
 	font-weight: 500;
 }
@@ -486,7 +473,6 @@ button:focus, input:focus {
 	margin-top: 4px;
 	font-family: 'Noto Sans JP', sans-serif;
 	overflow: hidden;
-	/*font-weight: 300;*/
 }
 
 
@@ -496,11 +482,9 @@ aside{
 	display: inline-block;
 	width: 30vw;
 	height: auto;
-	/*background-color: yellow;*/
 	vertical-align: top;
 	margin-left: 5px;
 	margin-top: 10px;
-	/*position: fixed;*/
 }
 
 .queue-header{
@@ -519,10 +503,8 @@ aside{
 .queue-dropdown {
 	display: inline-block;
 	float: right;
-	/*background-color: yellow;*/
 	margin-right: 15%;
 	margin-top: 0.5rem;
-	/*background: transparent;*/
 }
 
 .queue-dropdown > a{
@@ -592,7 +574,6 @@ aside{
 	flex-wrap: nowrap;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	/*background-color: red;*/
 }
 
 .h-song-list::-webkit-scrollbar{
@@ -604,7 +585,6 @@ aside{
 .queue-list{
 	width: 25vw;
 	height: 100vh;
-	/*background-color: yellow;*/
 	overflow-x: hidden;
 	overflow-y: scroll;
 	position: relative;
@@ -654,7 +634,6 @@ aside{
 .heart{
 	float: right;
 	font-size: 1rem;
-	/*margin-bottom: -5%;*/
 }
 
 /*-----------------------------------------------------footer--------------------------------------------------------*/
@@ -703,8 +682,6 @@ aside{
 .player{
 	width: 40%;
 	margin-left: 10%;
-	/*background-color: red;*/
-
 }
 
 .p1 {
@@ -728,7 +705,6 @@ aside{
 
 .more-options{
 	font-size: 1.2rem;
-	/*width: 20%;*/
 }
 
 .slider2 {
@@ -821,7 +797,6 @@ aside{
 	}
 
 	.player{
-		/*width: 50%;*/
 		margin-left: 0%;
 	}
 
@@ -833,7 +808,6 @@ aside{
 	.more-options{
 		font-size: 1rem;
 		width: 20%;
-		/*margin-right: -20%;*/
 		margin-left: 0;
 	}
 
@@ -874,7 +848,6 @@ aside{
 
 	.more-options{
 		width: 20%;
-		/*margin-right: -10%;*/
 	}
 
 }
@@ -972,11 +945,11 @@ aside{
 	}
 
 	.song-name{
-		font-size: 0.8rem;
+		font-size: 0.8rem !important ;
 	}
 
 	.song-date{
-		font-size: 0.6rem;
+		font-size: 0.6rem !important ;
 	}
 
 }
